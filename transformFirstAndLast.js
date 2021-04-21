@@ -7,7 +7,7 @@ function transformFirstAndLast(arr) {
         return element!='“'&&element!='”';
     });
     let newObject={};
-    newObject[newkay.join("")]=arr[lastElement];
+    newObject[newkay.join("")]=arr[lastElement];//adding key:value to "newObject"
     return newObject;
 }
-console.log(transformFirstAndLast(arr));
+console.log(transformFirstAndLast(arr));//printing out the output
