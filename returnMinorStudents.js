@@ -9,7 +9,7 @@ var students = [
  ];
 function returnMinors(arr)
 {
-    let minorStudents = arr.filter((element)=>{return element.age<=20;});
+    let minorStudents = arr.filter((element)=>{return element.age<=20;});//returns all the students whose age is <=20
     return minorStudents;
 }
-console.log(returnMinors(students));
+console.log(returnMinors(students));//printing out the output
